@@ -18,6 +18,11 @@ Route::middleware('auth')->group(function () {
 });
 
 
+// Route::get('/ajax-toast-test', function() {
+//     return response()->json([
+//         'message' => 'This is a test AJAX toast!'
+//     ]);
+// })->name('ajax.toast.test')->middleware('auth');
 
 
 // Route::get('/toast-test/{type}', function ($type) {
