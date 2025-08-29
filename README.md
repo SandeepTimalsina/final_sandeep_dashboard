@@ -1,6 +1,6 @@
 # Laravel Dashboard App
 
-A robust Laravel 11 dashboard application with user profile management, role-based access, AJAX toasts, and a clean UI built with Bootstrap 5.
+A robust Laravel 12 dashboard application with user profile management, role-based access, AJAX toasts, and a clean UI built with Bootstrap 5.
 
 ## Features
 
@@ -20,12 +20,12 @@ A robust Laravel 11 dashboard application with user profile management, role-bas
 - Composer
 - Node.js & NPM/Yarn
 - MySQL or MariaDB
-- Laravel 11
+- Laravel 12
 
 ## Installation
 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/your-laravel-app.git
-cd your-laravel-app
+git clone https://github.com/SandeepTimalsina/final_sandeep_dashboard.git
+cd final_sandeep_dashboard

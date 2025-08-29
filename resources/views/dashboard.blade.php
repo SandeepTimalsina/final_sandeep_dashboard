@@ -45,35 +45,8 @@
             </div>
           </div>
         </div>
-        
-
-        <!-- Add more widgets as needed -->
       </div>
     </div>
   </div>
 @endsection
-{{-- <div class="container-xxl flex-grow-1 container-p-y">
-          <h4 class="fw-bold py-3">AJAX Toast Test</h4>
 
-          <button id="testAjaxToast" class="btn btn-primary">Test AJAX Toast</button>
-        </div>
-@push('scripts')
-  <script>
-    $(document).ready(function () {
-      $('#testAjaxToast').click(function () {
-        $.ajax({
-          url: "{{ route('ajax.toast.test') }}",
-          method: 'GET',
-          success: function (response) {
-            // Show success toast
-            showToast('success', response.message || 'AJAX Toast Successful!');
-          },
-          error: function (xhr) {
-            // Show error toast
-            showwToast('danger', 'Something went wrong!', 'Error');
-          }
-        });
-      });
-    });
-  </script>
-@endpush --}}
